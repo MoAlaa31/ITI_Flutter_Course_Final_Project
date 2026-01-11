@@ -1,16 +1,68 @@
-# final_project
+# 📱 Flutter Final Project – ITI
 
-A new Flutter project.
+> Final project for the Flutter course at **Information Technology Institute (ITI)**  
+> Built by **Mohamed Gad**
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎨 Figma Design
+🔗 https://www.figma.com/design/PtEv56Tk90TLHA3Dg5KNqG/ITI_Flutter_Final_Project
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎥 Demo Video
+🔗 https://youtu.be/E-UGQK4wqTk?si=aasU76LDpoNhjmRH
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📌 About the Project
+
+This mobile application is the **final project** of my Flutter training at **ITI**.  
+The goal of the project is to apply Flutter concepts in a real-world UI implementation based on a professional Figma design.
+
+The project focuses on clean UI, good structure, and reusable components.
+
+---
+
+## ✨ Features
+
+- Responsive UI for different screen sizes  
+- Clean and structured Flutter project  
+- Reusable widgets  
+- Navigation between screens  
+- Form handling and validation  
+- State management  
+- Custom components  
+
+---
+
+## 🛠 Technologies Used
+
+- Flutter  
+- Dart  
+- Material UI  
+- State Management (Cubit / Bloc / Provider – edit based on what you used)
+- API integration
+- Local storage
+
+---
+
+## 📂 Project Structure
+lib/
+├── core/
+├── features/
+├── widgets/
+├── screens/
+├── models/
+└── main.dart
+
+## ⬇️ Download Packages Used
+dart pub add dio
+flutter pub add flutter_bloc
+flutter pub add flutter_secure_storage
+flutter pub add animated_snack_bar
+flutter pub add pretty_dio_logger
+flutter pub add lottie
+flutter pub add carousel_slider
+flutter pub add flutter_svg
+
