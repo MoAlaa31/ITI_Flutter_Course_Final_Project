@@ -49,20 +49,20 @@ The project focuses on clean UI, good structure, and reusable components.
 
 ## 📂 Project Structure
 lib/
-├── core/
-├── features/
-├── widgets/
-├── screens/
-├── models/
-└── main.dart
+- ├── core/
+- ├── features/
+- ├── widgets/
+- ├── screens/
+- ├── models/
+- └── main.dart
 
 ## ⬇️ Download Packages Used
-dart pub add dio
-flutter pub add flutter_bloc
-flutter pub add flutter_secure_storage
-flutter pub add animated_snack_bar
-flutter pub add pretty_dio_logger
-flutter pub add lottie
-flutter pub add carousel_slider
-flutter pub add flutter_svg
+- dart pub add dio
+- flutter pub add flutter_bloc
+- flutter pub add flutter_secure_storage
+- flutter pub add animated_snack_bar
+- flutter pub add pretty_dio_logger
+- flutter pub add lottie
+- flutter pub add carousel_slider
+- flutter pub add flutter_svg
 
