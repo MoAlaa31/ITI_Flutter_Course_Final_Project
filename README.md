@@ -5,11 +5,6 @@
 
 ---
 
-## 🎨 Figma Design
-🔗 https://www.figma.com/design/PtEv56Tk90TLHA3Dg5KNqG/ITI_Flutter_Final_Project
-
----
-
 ## 🎥 Demo Video
 🔗 https://youtu.be/E-UGQK4wqTk?si=aasU76LDpoNhjmRH
 
