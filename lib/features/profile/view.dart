@@ -1,5 +1,6 @@
 import 'package:final_project/cores/resources/app_images.dart';
 import 'package:final_project/cores/resources/cache_helper.dart';
+import 'package:final_project/features/cart/cart_cubit.dart';
 import 'package:final_project/features/login/view.dart';
 import 'package:final_project/features/profile/profile_cubit.dart';
 import 'package:final_project/features/widgets/profile_item.dart';
@@ -65,14 +66,12 @@ class ProfilePage extends StatelessWidget {
                     SizedBox(height: 100),
                     GestureDetector(
                       onTap: () async {
-                        Navigator.pop(context);
+                        context.read<CartCubit>().removeAllFromCart();
                         await CacheHelper.deleteToken();
                         if (!context.mounted) return;
                         Navigator.of(context).pushAndRemoveUntil(
-                          MaterialPageRoute(
-                            builder: (_) =>
-                              LoginPage()),
-                            (route) => false
+                          MaterialPageRoute(builder: (_) => LoginPage()),
+                              (route) => false,
                         );
                       },
                       child: Text(

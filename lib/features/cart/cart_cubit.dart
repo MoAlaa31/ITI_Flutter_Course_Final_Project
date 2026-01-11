@@ -11,4 +11,8 @@ class CartCubit extends Cubit<List<ProductModel>> {
   void removeFromCart(ProductModel product) {
     emit(state.where((item) => item.id != product.id).toList());
   }
+
+  void removeAllFromCart(){
+    emit([]);
+  }
 }
